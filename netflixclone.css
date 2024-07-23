@@ -1,0 +1,173 @@
+/* body {
+    font-family: 'Roboto', sans-serif;
+} */
+
+.background-image {
+    /* background-image: url('Images/GH-en-20240115-trifectadaily-perspective_alpha_website_large.jpg'); */
+    height: 700px;
+    border: 3px;
+    /* filter: brightness(0.9); */
+    position: relative;
+    background-color: black;
+
+}
+
+.background-image::before {
+    background-image: url('Images/GH-en-20240115-trifectadaily-perspective_alpha_website_large.jpg');
+    content: '';
+    position: absolute;
+    inset: 0;
+    opacity: 0.3;
+}
+
+.nav-content {
+    isolation: isolate;
+}
+
+.logo-brand {
+    padding-top: 0px;
+    padding-left: 100px;
+    padding-right: 200px;
+}
+
+
+.for-writings {
+    text-align: center;
+    color: white;
+    margin-top: 130px;
+}
+
+#email-butt {
+    padding-top: 1px;
+}
+
+
+.form-inline {
+    text-align: center;
+}
+
+.all {
+    height: 600px;
+    padding-top: 30px;
+    padding-left: 180px;
+    padding-right: 180px;
+    background-color: black;
+    color: white;
+}
+
+
+.email {
+    width: 350px;
+    height: 55px;
+    border-radius: 5px;
+    background-color: black;
+    opacity: 0.4;
+    color: white;
+    border-color: white;
+}
+
+.mb-2 {
+    background-color: red;
+}
+
+.sign-in {
+    width: 80px;
+}
+
+::placeholder {
+    color: white;
+    border-left: 50px;
+}
+
+.ash-background {
+    height: 8px;
+    background-color: dimgrey;
+}
+
+.side-eye {
+    margin-top: 150px;
+}
+
+.with-cont {
+    background-color: black;
+    height: 400px;
+    padding-top: 90px;
+    color: white;
+    padding-left: 350px;
+
+}
+
+.kids-photo {
+    background-color: black;
+    height: 550px;
+    padding-top: 70px;
+    color: white;
+    padding-left: 200px;
+    padding-right: 150px;
+
+}
+
+.cont-unKids {
+    margin-top: 100px;
+}
+
+.last-div {
+    text-align: center;
+    background-color: black;
+    padding-top: 70px;
+    color: white;
+    height: 810px;
+}
+
+#faq {
+    margin-bottom: 35px;
+}
+
+.footer {
+    color: darkgrey;
+    background-color: black;
+    height: 400px;
+    padding-top: 70px;
+    padding-left: 150px;
+    padding-right: 100px;
+}
+
+.sec-col {
+    padding-top: 50px;
+}
+
+.thi-col {
+    padding-top: 50px;
+}
+
+.for-col {
+    padding-top: 50px;
+}
+
+p {
+    text-decoration: underline;
+}
+
+.btn-lg {
+    margin-bottom: 10px;
+    width: 800px;
+    height: 70px;
+    text-align: left;   
+}
+
+.butt-text{
+    text-decoration: none;
+}
+
+.card-body {
+    background-color: black;
+}
+
+#English {
+    background-color: black;
+    color: white;
+    width: 120px;
+    height: 30px;
+    border-radius: 3px;
+}
+
